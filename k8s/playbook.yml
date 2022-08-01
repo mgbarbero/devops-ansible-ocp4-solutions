@@ -5,8 +5,6 @@
   vars:
     namespace: marianogbarbero-dev 
   
-  collections:
-    - community.kubernetes
   module_defaults:
     group/k8s:
       namespace: "{{ namespace }}"
