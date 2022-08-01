@@ -27,7 +27,7 @@
             
             
     - name: Get a info about Pods that are web apps in dev or test
-      k8s_info:
+      kubernetes.core.k8s_info:
         kind: Pod
         label_selectors:
           - app = nodejs-ex
